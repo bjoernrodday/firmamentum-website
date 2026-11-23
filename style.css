@@ -1,0 +1,20 @@
+:root { --bg: #0b1026; --text: #e8e6df; --muted: #a9a8b8; --gold: #f2b84b; --line: rgba(255,255,255,.12); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+header.kopf { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap;
+              border-bottom: 1px solid var(--line); padding-bottom: 12px; margin-bottom: 8px; }
+header.kopf a.marke { color: var(--gold); font-weight: 600; text-decoration: none; letter-spacing: .02em; }
+header.kopf nav a { color: var(--muted); margin-left: 14px; text-decoration: none; }
+header.kopf nav a:hover { color: var(--gold); }
+h1 { color: var(--gold); font-weight: 600; font-size: 1.8em; margin: .8em 0 .2em; line-height: 1.25; }
+h2 { color: var(--gold); font-weight: 600; font-size: 1.15em; margin-top: 2em; }
+h3 { font-size: 1em; margin: 1.4em 0 .2em; }
+p, li { color: var(--text); }
+.stand, .leise { color: var(--muted); }
+.stand { margin-top: 0; }
+a { color: var(--gold); }
+.kurz { border-left: 3px solid var(--gold); padding: 4px 16px; background: rgba(255,255,255,.04); }
+footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 12px; color: var(--muted); font-size: .9em; }
+footer a { color: var(--muted); margin-right: 14px; }
